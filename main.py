@@ -19,7 +19,7 @@ def get_answers(question, model):
 
     payload = {
         "question": question,
-        "model": "solidity",
+        "model": model,
         "master_key": os.getenv("master_key"),
     
     }
